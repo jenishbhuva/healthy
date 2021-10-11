@@ -1,0 +1,426 @@
+@media only screen and (max-width:1200px){
+    .header .menu{
+        display: none;
+    }
+    .sec1{
+        flex-direction: column;
+        width: 100%
+    }
+    .sec1 .mk1{
+        text-align: center;
+    }
+    .sec1 .mk2{
+        font-size: 20px!important;
+      text-align: center;
+    }
+    .sec1 .mk3{
+        text-align: center;
+    }
+    .sec1 .btns{
+        justify-content: center;
+    }
+    .sec1 img{
+        width: 80%!important;
+        margin: 0 auto 0!important;
+
+    }
+    .sec1 .img1{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 100%!important;
+    }
+}
+@media only screen and (max-width:1200px){
+    .sec2{
+        flex-direction: column;
+    }
+    .sec2 .p1{
+        margin-top: 50px!important;
+    }
+    .sec2 .p2{
+        margin-top: 50px!important;
+    }
+    .sec2 .p3{
+        margin-top: 50px!important;
+    }
+    .sec3{
+       
+        flex-direction: column;
+    }
+    .sec3 .p1{
+        text-align: center;
+    }
+    .sec3 .btns{
+        justify-content: center;
+    }
+    .sec3 .img3{
+        margin: 0 auto 0!important;
+        width: 80%!important;
+    }
+    .sec3 img{
+        width: 100%!important;
+    }
+    .sec4{
+        width: 100%!important;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .sec4 .s1{
+        width: 80%!important;
+        margin: 50px auto 50px;
+    }
+    .sec4 .s2{
+        width: 80%!important;
+        margin: 50px auto 50px;
+    }
+    .sec4 .s3{
+        width: 80%!important;
+        margin: 50px auto 50px;
+    }
+    .sec4 .j1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .sec4 .j2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .sec4 .j3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .sec5{
+        align-items:center!important;
+        padding:0px!important;
+        justify-content: center;
+         width: 100% !important;
+        text-align: center!important;
+        flex-direction: column;
+    }
+    .sec5 .title5{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin: 10px auto 0;
+        width: 80%!important;
+    }
+    .sec5 i{
+      
+        margin: 0 auto 0!important;
+        width: 80%!important;
+    }
+    .sec5 .mu{
+        margin-top: 50px!important;
+    
+     
+    }
+    .sec7{
+         
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%!important;
+    }
+    .sec7 .td{
+        width: 80%!important;
+    }
+    .sec7 .img7{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 100%!important;
+    }
+    .sec8 .f2{
+        margin: 50px auto 50px!important;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:#e2e1ee;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;   
+}
+:root {
+    --light: rgb(14, 17, 165);
+    --dark : rgb(238, 238, 238);
+}    
+.menu ul {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+}
+  
+.header .logo h2 {
+    font-family: "Kaushan Script", cursive;
+    color:var(--light);
+    font-size:30px;
+  }
+.menu ul li {
+    margin-right: 100px;
+    display: flex;
+    border: 1px solid #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15px;   
+}
+.menu ul li a{
+    text-decoration: none;
+    display: flex;
+    color:black                                                                     ;
+    
+}
+.btns {
+    display: flex;
+}
+.btns .btn1 a button{
+     margin-right: 30px;
+}  
+.btns .btn button{
+   
+   padding: 5px;
+   width: 100px;
+   font-size: 17px;
+   border-radius: 10px;
+   background-color:var(--dark);
+   color:var(--light);
+}
+.btns .btn button:hover{
+    color: var(--dark);
+    background-color: var(--light);
+    transition: 0.9s;
+}
+
+/* ............................sec1.......................... */
+.sec1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+}
+.sec1 .mk2{
+    font-size: 50px;
+}
+.sec1 .img1{
+    width: 100%;
+}
+.sec1 img{
+    width: 90%;
+   margin: 30px;
+}
+
+
+/* ..........................sec2............................. */
+.sec2{
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.sec2 i{
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+/* ............................sec3.................................. */
+
+.sec3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 .p1{
+    font-size: 30px;
+    padding: 30px;
+}
+.sec3 img{
+    width: 80%;
+}
+
+/* ........................sec4............................... */
+
+.title4{
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.sec4{
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+   margin: 0 auto 0 auto;
+   width: 80%;
+}
+.sec4 .s1{
+    width: 30%;
+}
+.sec4 .s2{
+    width: 30%;
+}
+.sec4 .s3{
+    width: 30%;
+}
+.sec4 img{
+    width:100%;
+}
+.sec4 i{
+    font-size: 20px;
+    padding: 5px;
+}
+.sec4 i:hover{
+    transition: 0.5s;
+    color: red;
+    
+}
+
+/* ...................sec5...................... */
+
+.sec5{
+    margin-top: 150px;
+    padding: 100px;
+    width: 80%;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content:space-between;
+}
+.sec5 .title5{
+    width: 30%;
+    
+} 
+.sec5 .icon5 {
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+}
+.sec5 .n1{
+    text-align: center;
+    width: 100%;
+  display: flex;
+    justify-content:space-around;
+}
+.sec5 .mu{
+    
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sec5 i{
+    color: royalblue;
+    font-size: 30px;
+}
+
+/* .........................sec6...................... */
+.sec6{
+    margin-top: 50px;
+}
+
+
+.sec6 .fp p{
+    color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sec6 .fp1{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sec6 .fp2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ........................sec7............................ */
+.sec7{
+    display: flex;
+    justify-content:center;
+   margin:50px auto 50px;
+    width: 80%;
+}
+.sec7 .td{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: left;
+    justify-content:center;
+    width: 50%;
+} 
+.sec7 .img7 {
+    width: 50%;
+}
+.sec7 img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+
+/* .....................sec8....................... */
+
+.sec8 .f2{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
